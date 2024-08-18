@@ -47,7 +47,7 @@ let productsControllers = {
         }
     },
 
-    serch: async function(req, res) {
+    search: async function(req, res) {
         
         const query = req.query.serch;
 

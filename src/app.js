@@ -4,6 +4,11 @@ const app = express();
 const path = require ('path');
 
 
+//Config del puerto
+const PORT = process.env.PORT || 3050;
+app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
+
+
 // express.static es un middleware que sirve para configurar la ruta de los archivos estáticos.
 const publicPath = path.resolve(__dirname, '../public');
 app.use(express.static(publicPath));   
@@ -17,7 +22,8 @@ const session = require ('express-session');
 app.use(session({
     secret: 'mySecretKey',
     resave: false,
-    saveUninitialized: false
+    saveUninitialized: false,
+    cookie: { secure: false } // Asegúrate de que 'secure' esté en 'false' si no estás usando HTTPS
 }));
 
 //Config de cookies
@@ -42,10 +48,6 @@ const methodOverride = require('method-override');
 app.use(methodOverride('_method')); 
 
 
-//Config del puerto
-
-const PORT = process.env.PORT || 3050;
-app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
 
 //Confir de rutas
 const homeRoutes= require('./routes/home.routes');
