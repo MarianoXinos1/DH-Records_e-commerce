@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require ('express');
 const app = express();
 const path = require ('path');
@@ -43,7 +44,7 @@ app.use(methodOverride('_method'));
 
 //Config del puerto
 
-const PORT = 3050; 
+const PORT = process.env.PORT || 3050;
 app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
 
 //Confir de rutas

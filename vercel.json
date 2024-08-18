@@ -1,16 +1,10 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "src/app.js",
-      "use": "@vercel/node"
-    }
-  ],
+  "devCommand": "set PORT=3050 && node src/app.js",
   "routes": [
     {
       "src": "/(.*)",
       "dest": "src/app.js"
     }
-  ],
- "devCommand": "set PORT=3050 && nodemon src/app.js"
+  ]
 }
