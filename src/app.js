@@ -2,6 +2,7 @@ const express = require ('express');
 const app = express();
 const path = require ('path');
 
+
 // express.static es un middleware que sirve para configurar la ruta de los archivos estáticos.
 const publicPath = path.resolve(__dirname, '../public');
 app.use(express.static(publicPath));   
@@ -41,7 +42,8 @@ app.use(methodOverride('_method'));
 
 
 //Config del puerto
-const PORT = 3030; 
+
+const PORT = 3050; 
 app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
 
 //Confir de rutas
@@ -55,3 +57,5 @@ app.use('/', homeRoutes);
 app.use('/products', productsRoutes);
 app.use('/users', usersRoutes);
 app.use('/apis', apisRoutes);
+
+module.exports = app;
