@@ -184,7 +184,7 @@
 .blog__seccion--imagen{
     height: 400px; 
     border-radius: 20px;
-    background-image: url("/images/Foto21.jpg"); 
+    background-image: url("/Images/Foto21.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  
@@ -210,7 +210,7 @@
 .seccion__banner--imagen{
     height: 400px; 
     border-radius: 20px;
-    background-image: url("/images/Foto50.jpg"); 
+    background-image: url("/Images/Foto50.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  

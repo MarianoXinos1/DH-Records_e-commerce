@@ -47,24 +47,8 @@ Conoce al increíble equipo detrás de nuestra tienda:
 - **Mariano Xinos**
 
   Hola soy Mariano, estudie 4 años en Arquitectura y actualmente me apasiona la programación. Siempre me intesero el mundo de la tecnología y estoy en busca de nuevos desafíos y oportunidades para mejorar mis habilidades. 
+  
+  En mis tiempos libres  disfruto mucho cocinar, explorando nuevas recetas y también ir al gimnasio. Todo tipo de actividades que me mantienen activo y saludable, combino mis intereses para encontrar un equilibrio perfecto entre mente, cuerpo y creatividad. 
 
- En mis tiempos libres  disfruto mucho cocinar, explorando nuevas recetas y también ir al gimnasio. Todo tipo de actividades que me mantienen activo y saludable, combino mis intereses para encontrar un equilibrio perfecto entre mente, cuerpo y creatividad. 
 
-
-
-# 🌐 Páginas web que nos sirven de inspiración
-
-  Aquí compartimos algunas páginas web que nos han inspirado en el desarrollo de nuestra tienda online de vinilos:
-
-1. [Discogs](https://www.discogs.com/) - Una referencia importante por su extensa base de datos y plataforma de compraventa.
-
-2. [MercadoLibre - Sección de Productos](https://listado.mercadolibre.com.ar/discos-de-vinilo-nuevos#D[A:discos%20de%20vinilo%20nuevos]) - Nos inspira la organización y los mecanismos de filtros de su sección de productos, brindando una experiencia de usuario efectiva.
-
-3. [Audiofilostore](https://www.audiofilostore.com) - Nos gusto la parte visual y la distribucion de la pagina.
-
-4. [Nike](https://www.nike.com.ar/?gad_source=1&gclid=CjwKCAiAt5euBhB9EiwAdkXWOzoya7vdjhL0SvBMEAECPaMrjLN49ShY5tUmQ6Nhd1It9iZXHl0ZyRoCKq0QAvD_BwE) - Nos gusto el diseño con banners promocionales llamativos.
-
-5. [Universal Music Store](https://universalmusicstore.com.co/collections/vinil) - Nos gusto como tiene distribuido el modulo de vinilos para la venta.
-
-6. [The Sound Of Vinyl](https://thesoundofvinyl.com) - Lo usamos de referencia para comparar nuestra pagina con otras de venta de vinilos.
 
